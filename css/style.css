@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-    width: 1352px;
+    max-width: 1352px;
 }
 
 header {
@@ -97,8 +97,8 @@ main .open__section {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
-    height: 100vh;
-    /*  background-color: yellow;*/
+    /* height: 100vh;
+    background-color: yellow;*/
 }
 
 main .open__section h1 {
@@ -144,7 +144,8 @@ main .open__section img {
     bottom: 0;
     left: 50%;
     transform: translateX(-50%);
-}*/
+}
+*/
 
 main .open__section div {
     margin-top: 20px;
@@ -152,4 +153,85 @@ main .open__section div {
     justify-content: center;
     align-items: flex-end;
     width: 100%;
+}
+
+
+main .statistic {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    font-family: 'Raleway', sans-serif;
+    padding: 20px 0;
+}
+
+main .statistic h2 {
+    display: block;
+    padding-top: 50px;
+    text-align: center;
+    font-weight: 400;
+    color: #000000;
+    font-size: 36px;
+}
+
+main .statistic .statistic_wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+main .statistic .statistic_wrapper article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 0 100px;
+    width: 33%;
+    height: 100%;
+}
+
+main .statistic div article div {
+    position: relative;
+    height: 63px;
+    width: 63px;
+    text-align: center;
+    border-radius: 50%;
+}
+
+main .statistic div article:nth-of-type(1) div {
+    background-color: #FB3B64;
+}
+
+main .statistic div article:nth-of-type(2) div {
+    background-color: #08A6E4;
+}
+
+main .statistic div article:nth-of-type(3) div {
+    background-color: #55DFB4;
+}
+
+main .statistic div article div img {
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 50%;
+    z-index: 5;
+}
+
+main .statistic div article p {
+    display: block;
+    text-align: center;
+    font-size: 16px;
+    padding-top: 20px;
+}
+
+main .statistic div article span {
+    display: block;
+    font-size: 20px;
+    font-weight: 800;
+    letter-spacing: 6px;
+    padding-top: 10px;
 }
