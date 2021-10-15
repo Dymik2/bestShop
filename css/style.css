@@ -235,3 +235,12 @@ main .statistic div article span {
     letter-spacing: 6px;
     padding-top: 10px;
 }
+
+main .benefits {
+    display: flex;
+    flex-direction: column;
+}
+
+main .benefits article {
+    display: flex;
+}
