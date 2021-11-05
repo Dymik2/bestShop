@@ -37,6 +37,7 @@ header {
     width: 1352px;
     height: 50px;
     padding: 31px 0;
+    overflow: hidden;
 }
 
 .header__wrapper a.Logo {
@@ -96,6 +97,7 @@ main .open__section {
     justify-content: center;
     align-items: center;
     padding-top: 100px;
+    overflow: hidden;
     /* height: 100vh;
     background-color: yellow;*/
 }
@@ -162,6 +164,7 @@ main .statistic {
     width: 100%;
     font-family: 'Raleway', sans-serif;
     padding: 20px 0;
+    overflow: hidden;
 }
 
 main .statistic h2 {
@@ -240,6 +243,7 @@ main .benefits {
     flex-direction: column;
     align-items: center;
     background-color: #F7F7F7;
+    overflow: hidden;
 }
 
 main .benefits .benefits__wrapper {
@@ -372,6 +376,7 @@ main .benefits .benefits__wrapper:nth-of-type(3) p::after {
 
 main .pricing {
     padding: 40px 0;
+    overflow: hidden;
 }
 
 main .pricing div {
@@ -494,6 +499,7 @@ main section.contact {
     display: flex;
     justify-content: center;
     align-items: flex-start;
+    overflow: hidden;
 }
 
 
@@ -562,6 +568,7 @@ main .contact .form__wrapper {
     justify-content: center;
     align-items: flex-start;
     width: 30%;
+    overflow: hidden;
 }
 
 main .contact .form__wrapper form {
@@ -663,6 +670,7 @@ footer .footer__wrapper {
     display: flex;
     justify-content: center;
     width: 100%;
+    overflow: hidden;
 }
 
 footer .footer__wrapper div {
