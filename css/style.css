@@ -10,6 +10,11 @@ font-family: 'Raleway', sans-serif;
     box-sizing: border-box;
 }
 
+body {
+    width: 100vw;
+    overflow: hidden;
+}
+
 .container {
     max-width: 1352px;
     overflow: hidden;
