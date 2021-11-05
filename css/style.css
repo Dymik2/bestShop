@@ -502,6 +502,7 @@ main .pricing div .offer:nth-of-type(3) a {
 
 main section.contact {
     display: flex;
+    padding-top: 30px;
     justify-content: center;
     align-items: flex-start;
     overflow: hidden;
